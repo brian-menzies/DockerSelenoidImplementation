@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0520bc35-bf35-4eec-aeb5-0d5829b416c9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Config.py" afterPath="$PROJECT_DIR$/Tests/BasicAutomation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Objects.py" afterPath="$PROJECT_DIR$/Pages/Objects.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AWS.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.xml" afterPath="$PROJECT_DIR$/Config.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Objects.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Objects.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/Objects.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AWS.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AWS.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -55,6 +73,8 @@
         <option value="$PROJECT_DIR$/Tests.py" />
         <option value="$PROJECT_DIR$/Objects.py" />
         <option value="$PROJECT_DIR$/Config.py" />
+        <option value="$PROJECT_DIR$/Config.xml" />
+        <option value="$PROJECT_DIR$/AWS.xml" />
       </list>
     </option>
   </component>
@@ -191,6 +211,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>
