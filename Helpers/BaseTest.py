@@ -51,5 +51,4 @@ class BaseTest(unittest.TestCase):
 
         ec2conn = EC2Connection(self.AWS_ACCESS, self.AWS_SECRET)
         reservations = ec2conn.get_all_instances()
-        hosts = [i.public_dns_name + ":8080" for r in reservations
-                 for i in r.instances if (i.state == u'running' and i.key_name == u'selenoidmachine')
+        hosts = [i.public_dns_name + ":8080" for r in reservations for i in r.instances if (i.state == u'running' and i.key_name == u'selenoidmachine')]
