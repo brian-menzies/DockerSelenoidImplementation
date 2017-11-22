@@ -2,9 +2,11 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+
+
 class PythonOrgSearch(unittest.TestCase):
 
-    def setUp(self):
+    def test_search_in_python_org(self):
         capabilities = {
             "browserName": "chrome",
             "version": "62.0"
@@ -14,7 +16,6 @@ class PythonOrgSearch(unittest.TestCase):
             command_executor='http://ec2-18-216-154-51.us-east-2.compute.amazonaws.com:4444/wd/hub',
             desired_capabilities=capabilities)
 
-    def test_search_in_python_org(self):
         driver = self.driver
         driver.get("https://github.com")
         assert "GitHub" in driver.title
