@@ -1,3 +1,13 @@
+Config.xml
+config.xml
+AWS.xml
+aws.xml
+AWS_Setup.bat
+aws_setup.bat
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
