@@ -1,12 +1,12 @@
 from selenium import webdriver
 
 capabilities = {
-   "browserName": "opera",
-   "version": "49.0"
+   "browserName": "firefox",
+   "version": "56.0"
 }
 
 driver = webdriver.Remote(
-   command_executor="http://selenoid:4444/wd/hub",
+   command_executor="http://18.216.154.51/wd/hub",
    desired_capabilities=capabilities)
 
 
