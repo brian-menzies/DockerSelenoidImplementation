@@ -6,7 +6,7 @@ capabilities = {
 }
 
 driver = webdriver.Remote(
-   command_executor="http://18.216.154.51/wd/hub",
+   command_executor="http://18.216.154.51:4444/wd/hub",
    desired_capabilities=capabilities)
 
 

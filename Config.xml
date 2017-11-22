@@ -1,2 +1,9 @@
-<APP_URL>http://phptravels.com/demo/</APP_URL>
-<GRID_URL>http://18.220.147.147</GRID_URL>
+<CONFIG>
+    <AWS_ACCESS_KEY>AKIAI5MKUBSRYA6K4FSQ</AWS_ACCESS_KEY>
+
+    <AWS_SECRET_KEY>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</AWS_SECRET_KEY>
+
+    <APP_URL>http://phptravels.com/demo/</APP_URL>
+
+    <GRID_URL>http://18.220.147.147</GRID_URL>
+</CONFIG>
