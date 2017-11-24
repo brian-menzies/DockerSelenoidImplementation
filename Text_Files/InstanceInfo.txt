@@ -1,0 +1,43 @@
+Time Checked: 2017-11-24 15:15:01+00:10
+Name: Selenoid Hub Machine
+Type: t2.medium
+State: running
+Private IP: 10.0.0.1
+Public IP: 1.2.3.4
+Launch Time: 2015-09-20 04:44:16+00:00
+
+
+Time Checked: 2017-11-24 15:15:05+02:01
+Name: Selenoid Node -- Chrome 0001
+Type: t2.xlarge
+State: running
+Private IP: 10.0.0.2
+Public IP: 4.3.2.1
+Launch Time: 2015-10-01 08:27:00+00:00
+
+
+Time Checked: 2017-11-24 15:15:03+00:07
+Name: Selenoid Node -- Firefox 0001
+Type: t2.large
+State: terminated
+Private IP: 10.0.0.3
+Public IP: 1.2.3.5
+Launch Time: 2015-09-20 04:44:16+00:30
+
+
+Time Checked: 2017-11-24 15:15:04+00:10
+Name: Selenoid Node -- Chrome 0002
+Type: t2.gigantic
+State: runnning
+Private IP: 10.0.0.4
+Public IP: 1.2.3.6
+Launch Time: 2015-09-21 04:44:16+00:00
+
+
+Time Checked: 2017-11-24 15:15:05+00:30
+Name: Selenoid Node -- Firefox 0002
+Type: t2.tiny
+State: setting up
+Private IP: 10.0.0.5
+Public IP: 1.2.3.7
+Launch Time: 2015-09-22 04:44:16+00:00

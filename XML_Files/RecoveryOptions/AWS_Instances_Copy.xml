@@ -1,0 +1,65 @@
+<AWS_Instances>
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+    <instance>
+        <Name>SelenoidHubMachine</Name>
+        <Type>t2.small</Type>
+        <State>running</State>
+        <Private_IP>10.0.0.1</Private_IP>
+        <Public_IP>1.2.3.4</Public_IP>
+        <Launch_Time>2015-09-20 04:44:16+00:00</Launch_Time>
+    </instance>
+
+</AWS_Instances>

@@ -1,7 +1,9 @@
 Config.xml
 config.xml
-AWS.xml
-aws.xml
+AWS_Config.xml
+aws_config.xml
+AWS_Nodes.xml
+AWS_Nodes.xml
 AWS_Setup.bat
 aws_setup.bat
 
@@ -109,3 +111,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+00_Not_Needed_ATM/ec2_info_retriever.py
+/XML_Files/Devices.xml
+/XML_Files/data2.xml
+/00_Not_Needed_ATM/ec2_info_retriever.py
+/XML_Files/Sauce.xml
