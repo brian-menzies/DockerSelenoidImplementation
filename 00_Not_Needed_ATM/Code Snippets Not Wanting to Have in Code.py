@@ -115,3 +115,229 @@ def format_time(self):
     date = str(date.year) + "-" + str(date.month) + "-" + str(date.day) + "-" + str(datetime.datetime.now().time())
     # date = str(date.year) + "-" + str(date.month) + "-" + str(date.day) + "-" + str(datetime.datetime.now().time())
     # print("Date and Time Data are: ", date)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# code that reads the file line by line
+def read_the_file(file_to_read):
+    f = open('library.xml','r')
+    line = f.readline()
+    print("1. Line is : ", line)
+    if '<AWSINSTANCEINFO>' in line:
+        next_line = f.readline()
+        print("2. Next line is : ", next_line)
+        write_f = open('myfile', 'w')
+        while '/AWSINSTANCEINFO' not in next_line:
+            write_f.write(next_line)
+            next_line = f.readline()
+            print("3. Next line is : ", next_line)
+        write_f.close()
+        return write_f.name
+    else:
+        return f.name
+
+# code that processes the xml file
+def process_the_xml_file(file_to_process):
+    print("5. File to process is : ", file_to_process)
+    file = open(file_to_process, 'r')
+    lines=file.readlines()
+    print(lines)
+    file.close()
+
+
+# calling the code to read the file and process the xml
+path_to_file='test.xml'
+write_f=read_the_file(path_to_file)
+print("4. Write f is : ", write_f)
+process_the_xml_file(write_f)
+
+
+
+
+
+
+for key in dictionary:
+    # for key in attributes:
+        # Have to Start at 1 as I don't have a Dictionary Entry 0 as Code Doesn't Create It As Written Currently
+    # print("Key is: ", key)
+    # print(dictionary[key][0])
+    # print(dictionary[key][1])
+    # print(dictionary[key][2])
+    # print("Dictionary Entry 1 is: ", dictionary[1][0])
+    # print("Dictionary Entry 2 is: ", dictionary[2][1])
+    # print("Dictionary Entry 3 is: ", dictionary[3][2])
+    # Print the results to the Console for the Tester / Developer to See
+    # print("{0}: {1}".format(key, INSTANCE[key]))
+
+
+
+
+
+
+xml_content = ROOT(
+    INSTANCE(
+        NAME(dictionary[key][0].split(": ")[0], dictionary[key][0].split(": ")[1]),
+        TYPE(dictionary[key][1].split(": ")[1]),
+        STATE(dictionary[key][2].split(": ")[1]),
+        PRIVATEIP(dictionary[key][3].split(": ")[1]),
+        PUBLICIP(dictionary[key][4].split(": ")[1]),
+        LAUNCHTIME(dictionary[key][5].split(": ")[1]),
+        TIMECHECKED(dictionary[key][6].split(": ")[1]),
+        TIMECREATED(dictionary[key][7].split(": ")[1])
+    )
+)
+
+
+
+
+
+# indent(root)
+
+    # INSTANCEINFO = ElementMaker.INSTANCEINFO
+    # INSTANCE = ElementMaker.INSTANCE
+    # NAME = ElementMaker.NAME
+    # TYPE = ElementMaker.TYPE
+    # STATE = ElementMaker.STATE
+    # PRIVATEIP = ElementMaker.PRIVATEIP
+    # PUBLICIP = ElementMaker.PUBLICIP
+    # LAUNCHTIME = ElementMaker.LAUNCHTIME
+    # TIMECHECKED = ElementMaker.TIMECHECKED
+    # TIMECREATED = ElementMaker.TIMECREATED
+    #
+    # instance_info = ElementMaker.SubElement(ROOT, INSTANCEINFO())
+    # output_to_xml_file(instance_info, 1)
+    #
+    # instance_content = ElementMaker.SubElement(instance_info, INSTANCE())
+    # output_to_xml_file(instance_content, 1)
+    #
+    # name_content = ElementMaker.SubElement(instance_info, NAME(dictionary[key][0].split(": ")[1]))
+    # output_to_xml_file(name_content, 1)
+    #
+    # type_content = ElementMaker.SubElement(instance_info, TYPE(dictionary[key][1].split(": ")[1]))
+    # output_to_xml_file(type_content, 1)
+    #
+    # state_content = ElementMaker.SubElement(instance_info, STATE(dictionary[key][2].split(": ")[1]))
+    # output_to_xml_file(state_content, 1)
+    #
+    # private_ip_content = ElementMaker.SubElement(instance_info, PRIVATEIP(dictionary[key][3].split(": ")[1]))
+    # output_to_xml_file(private_ip_content, 1)
+    #
+    # public_ip_content = ElementMaker.SubElement(instance_info, PUBLICIP(dictionary[key][4].split(": ")[1]))
+    # output_to_xml_file(public_ip_content, 1)
+    #
+    # launch_time_content = ElementMaker.SubElement(instance_info, LAUNCHTIME(dictionary[key][5].split(": ")[1]))
+    # output_to_xml_file(launch_time_content)
+    #
+    # time_checked_content = ElementMaker.SubElement(instance_info, TIMECHECKED(dictionary[key][6].split(": ")[1]))
+    # output_to_xml_file(time_checked_content)
+    #
+    # time_created_content = ElementMaker.SubElement(instance_info, TIMECREATED(dictionary[key][7].split(": ")[1]))
+    # output_to_xml_file(time_created_content)
+
+
+
+    # xml_file = open(xml_path, 'wb')
+    # xml_file.write(xml_content)
+    # xml_file.close()
+    # print(xml_content)
+    # print(lxml.etree.tostring(instance_info, pretty_print=True))
+    # string_xml = str(lxml.etree.tostring(instance_info, pretty_print=True))
+    # tree = ET.XML(xml_content)
+    # root = Element('INSTANCE_INFO_IN_XML_FILE')
+    # tree = ElementTree(root)
+    # with open(xml_path, "wb") as f:
+    #     f.write(ET.tostring(tree))
+
+    # tree.write(open(xml_path, 'w'), encoding='unicode', xml_declaration=True)
+
+    # with open(xml_path, 'w') as f:
+    #     f.write(string_xml)
+    #     f.close()
+
+    # with open(xml_path, 'wb') as myfile:
+    #     myfile.write(xml_content)
+    #
+
+
+
+
+
+
+
+# for index in range(0, len(xml_list)):
+#     tree = xml_list[index]
+#     indent(root)
+
+
+
+
+#
+# def output_to_xml_file(part_to_output, indent_level):
+#     print(lxml.etree.tostring(part_to_output, pretty_print=True))
+#     string_xml = str(lxml.etree.tostring(part_to_output, pretty_print=True))
+#     with open(xml_path, 'a') as file:
+#         file.write(string_xml)
+#         indent(part_to_output, indent_level)
+#         file.close()
+
+
+
+
+
+# def current_time():
+#     # Format and Handle the Current Time Values to
+#     # Match Those Given by Call to Service
+#     date = datetime.date.today()
+#     time = datetime.datetime.now()
+#
+#     time_sections = ['hour', 'minute', 'second']
+#     number_sections = range(0, len(time_sections))
+#
+#     for section in number_sections:
+#         if section == 0:
+#             if time.hour <= 9:
+#                 hours = "0" + str(time.hour)
+#             else:
+#                 hours = time.hour
+#         elif section == 1:
+#             if time.minute <= 9:
+#                 minutes = "0" + str(time.minute)
+#             else:
+#                 minutes = time.minute
+#         elif section == 2:
+#             if time.second <= 9:
+#                 seconds = "0" + str(time.second)
+#             else:
+#                 seconds = time.second
+#
+#     return str(date.year) + "-" + str(date.month) + "-" + str(date.day) \
+#            + " " + str(hours) + ":" + str(minutes) + ":" + str(seconds)
+
+
+
+
+
+# xmlfile = ET.parse('file.xml')
+a = xmlfile.getroot()
+
+f = ET.Element('f')
+g = ET.SubElement(f,'g')
+
+f.tail = "\n    "
+f.text = "\n        "
+g.tail = "\n    "
+
+a.insert(1, f)
