@@ -109,35 +109,46 @@
 # # tree = ET.ElementTree(result)
 # # tree.write("filename.xml")
 
+#
+# def indent(elem, level=0):
+#     i = "\n" + level*"  "
+#     if len(elem):
+#         if not elem.text or not elem.text.strip():
+#             elem.text = i + "  "
+#         if not elem.tail or not elem.tail.strip():
+#             elem.tail = i
+#         for elem in elem:
+#             indent(elem, level+1)
+#         if not elem.tail or not elem.tail.strip():
+#             elem.tail = i
+#     else:
+#         if level and (not elem.tail or not elem.tail.strip()):
+#             elem.tail = i
+#
+#
+#
+# a = [['txt','stxt','pi','min','max'],['txt1','stxt1','pi1','min1','max1']]
+# b = [[0.45,1.23],[0.75,1.53]]
+# from xml.etree import ElementTree as ET
+# root =  ET.Element("xml")
+# for l1 in zip(a,b):
+#         sroot_root = ET.Element("Class ",name = l1[0][0])
+#         doc = ET.SubElement(sroot_root, "subclass" , name = l1[0][1])
+#         ET.SubElement(doc, l1[0][4], min = str(l1[1][0]),max = str(l1[1][1]))
+#         root.append(sroot_root)
+#
+#
+# tree = ET.ElementTree(root)
+# indent(root)
+# tree.write("test.xml")
 
-def indent(elem, level=0):
-    i = "\n" + level*"  "
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = i + "  "
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-        for elem in elem:
-            indent(elem, level+1)
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = i
-    else:
-        if level and (not elem.tail or not elem.tail.strip()):
-            elem.tail = i
 
 
 
-a = [['txt','stxt','pi','min','max'],['txt1','stxt1','pi1','min1','max1']]
-b = [[0.45,1.23],[0.75,1.53]]
+
 from xml.etree import ElementTree as ET
-root =  ET.Element("xml")
-for l1 in zip(a,b):
-        sroot_root = ET.Element("Class ",name = l1[0][0])
-        doc = ET.SubElement(sroot_root, "subclass" , name = l1[0][1])
-        ET.SubElement(doc, l1[0][4], min = str(l1[1][0]),max = str(l1[1][1]))
-        root.append(sroot_root)
-
-
-tree = ET.ElementTree(root)
-indent(root)
-tree.write("test.xml")
+xml = ET.Element('xml')
+tag = ET.SubElement(xml, 'tag')
+tag.text = 'this is line 1.' + '\n' + 'this is line 2.'
+tree = ET.ElementTree(xml)
+tree.write('test.xml')
