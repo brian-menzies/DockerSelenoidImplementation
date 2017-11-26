@@ -7,7 +7,8 @@ AWS_Nodes.xml
 AWS_Setup.bat
 aws_setup.bat
 
-
+.idea
+.idea/workspace.xml
 
 
 # Byte-compiled / optimized / DLL files
