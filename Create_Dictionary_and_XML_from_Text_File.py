@@ -118,4 +118,4 @@ for key in dictionary:
 
 tree = ElementTree.ElementTree(root)
 indent(root)
-tree.write("AWS_Config.xml")
+tree.write("AWS_Instances.xml")
