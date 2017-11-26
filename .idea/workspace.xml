@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Helpers/BaseTest.py" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0520bc35-bf35-4eec-aeb5-0d5829b416c9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Create_Dictionary_From_Text_File.py" afterPath="$PROJECT_DIR$/Create_Dictionary_and_XML_from_Text_File.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/SimpleTest.py" afterPath="$PROJECT_DIR$/Tests/SimpleTest.py" />
-    </list>
+    <list default="true" id="0520bc35-bf35-4eec-aeb5-0d5829b416c9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,48 +13,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Create_Dictionary_and_XML_from_Text_File.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Create_Dictionary_and_XML_from_Text_File.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="619">
-                  <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#1#20#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AWS_Config.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/AWS_Config.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="748">
-                  <caret line="44" column="2" lean-forward="false" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="SimpleTest.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Tests/SimpleTest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="721">
-                  <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="Create_Dictionary_and_XML_from_Text_File.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Create_Dictionary_and_XML_from_Text_File.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="971">
+              <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ec2_info_retriever.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Not_Needed_ATM/ec2_info_retriever.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,7 +132,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1713" />
+    <option name="x" value="-7" />
     <option name="width" value="1734" />
     <option name="height" value="1407" />
   </component>
@@ -239,24 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Create_Dictionary_and_XML_from_Text_File">
-    <configuration name="Create_Dictionary_From_Text_File (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_Not_Needed_ATM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DockerSelenoidImplementation" />
-      <option name="SCRIPT_NAME" value="C:\Development\DockerSelenoidImplementation\Create_Dictionary_and_XML_from_Text_File.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.ec2_info_retriever">
     <configuration name="Create_Dictionary_From_Text_File (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,20 +288,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="ec2_info_retriever" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_Not_Needed_ATM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DockerSelenoidImplementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_Not_Needed_ATM/ec2_info_retriever.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Create_Dictionary_and_XML_from_Text_File" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SimpleTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Create_Dictionary_and_XML_from_Text_File" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SimpleTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ec2_info_retriever" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Create_Dictionary_and_XML_from_Text_File" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SimpleTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ec2_info_retriever" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Create_Dictionary_and_XML_from_Text_File" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SimpleTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Create_Dictionary_From_Text_File (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +371,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1713" y="0" width="1734" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18757467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -402,7 +382,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28796223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34539732" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7688266" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39921874" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -457,14 +437,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/XML_Files/RecoveryOptions/AWS_Instances_Copy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -687,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Not_Needed_ATM/ec2_info_retriever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -835,10 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Not_Needed_ATM/Code Snippets Not Wanting to Have in Code.py">
+    <entry file="file://$PROJECT_DIR$/Tests/SimpleTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="308" column="37" lean-forward="true" selection-start-line="308" selection-start-column="37" selection-end-line="308" selection-end-column="37" />
+        <state relative-caret-position="1005">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -851,21 +813,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SimpleTest.py">
+    <entry file="file://$PROJECT_DIR$/00_Not_Needed_ATM/Code Snippets Not Wanting to Have in Code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        <state relative-caret-position="5236">
+          <caret line="308" column="37" lean-forward="true" selection-start-line="308" selection-start-column="37" selection-end-line="308" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Create_Dictionary_and_XML_from_Text_File.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,6 +826,34 @@
         <state relative-caret-position="748">
           <caret line="44" column="2" lean-forward="false" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Create_Dictionary_and_XML_from_Text_File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python36/Lib/site-packages/boto3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="85" column="4" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Not_Needed_ATM/ec2_info_retriever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

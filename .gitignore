@@ -116,3 +116,4 @@ ENV/
 /XML_Files/data2.xml
 /00_Not_Needed_ATM/ec2_info_retriever.py
 /XML_Files/Sauce.xml
+/00_Not_Needed_ATM/AWS_Config.xml
