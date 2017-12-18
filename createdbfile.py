@@ -17,7 +17,7 @@ def indent(elem, level=0):
             elem.tail = i
 
 # Setup XML File Structure
-user_filename = '/quotafile/orasitester.xml'
+user_filename = '/root/quotafile/orasitester.xml'
 root = ElementTree.Element('qa:browsers', attrib={"xmlns:qa": "urn:config.gridrouter.qatools.ru"})
 region_name = {'name': "us-east-1"}
 
