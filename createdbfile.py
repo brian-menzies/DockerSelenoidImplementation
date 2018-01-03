@@ -123,7 +123,8 @@ for attribute in range(0, len(name_attributes)):
             version_xml = ElementTree.SubElement(xml_name, 'version', attrib={"number": (str(latest_browser_list[attribute][browser_version]).strip() + ".0")})
             region_xml = ElementTree.SubElement(version_xml, 'region', attrib=region_name)
             for row in all_rows:
-                host_xml = ElementTree.SubElement(region_xml, 'host', attrib={'name': row[0], 'port': '4445', 'count': '1'})
+                vnc_value = "vnc://" + str(row[0]) + ":5900"
+                host_xml = ElementTree.SubElement(region_xml, 'host', attrib={'name': row[0], 'port': '4445', 'count': '1', 'vnc': vnc_value})
 
     except:
         pass
